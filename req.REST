@@ -1,0 +1,39 @@
+POST http://localhost:5000/api/item 
+content-Type: application/json
+
+{
+    "item": "Big bang ting tang", 
+    "date": "4/5/2022 12:12"
+}
+
+###
+
+GET http://localhost:5000/api/items
+content-Type: application/json
+
+###
+
+PUT http://localhost:5000/api/item/6311f86c535e71e5e77d9082
+content-Type: application/json
+
+{
+    "item": "Olive Oil"
+}
+
+###
+
+DELETE  http://localhost:5000/api/item/63123d82eb3c1ec2154d0ff4
+content-Type: application/json
+
+
+
+###
+POST http://localhost:5000/api/note 
+content-Type: application/json
+
+{
+    "title": "Third Note",
+    "details": "Making my Third note for MERN Stack Application",
+    "image": "",
+    "todo_tags": "63120463b1a3ada1e1a59bbd"
+}
