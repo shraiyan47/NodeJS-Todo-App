@@ -10,7 +10,7 @@ router.post('/api/note', async(req, res) => {
                 title: req.body.title,
                 details: req.body.details,
                 image: req.body.image,
-                todo_tags: req.body.todo_tags,
+                todo_tags: [req.body.todo_tags],
                 date: ts
             })
             //save this item in database

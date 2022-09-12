@@ -32,8 +32,30 @@ POST http://localhost:5000/api/note
 content-Type: application/json
 
 {
-    "title": "Third Note",
-    "details": "Making my Third note for MERN Stack Application",
+    "title": "Forth Note",
+    "details": "Making my Forth note for MERN Stack Application",
+    "image": "",
+    "todo_tags": ["6311f86c535e71e5e77d9082", "631209069db3f8928482689a"]
+}
+
+###
+
+GET http://localhost:5000/api/notes
+content-Type: application/json
+
+###
+
+PUT http://localhost:5000/api/note/631337fd3699bf3727efe4f2
+content-Type: application/json
+
+{
+    "title": "First Note Edited",
+    "details": "Making my First note  Editedfor MERN Stack Application",
     "image": "",
     "todo_tags": "63120463b1a3ada1e1a59bbd"
 }
+
+###
+
+DELETE  http://localhost:5000/api/item/63123d82eb3c1ec2154d0ff4
+content-Type: application/json
