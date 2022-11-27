@@ -1,0 +1,427 @@
+.profile-img,
+.profile-img>img {
+  border-radius: 50px;
+  /* width: 100%; */
+  height: auto;
+  padding: 5px;
+}
+
+.close {
+  padding: 7px 16px;
+  border-radius: 10px;
+  font-weight: 500;
+  background-color: #0000;
+  border-color: #0000;
+  color: #bd0d25;
+  font-weight: bolder;
+  font-size: 25px;
+}
+
+.job-status {
+  border-radius: 12px;
+  height: 12px;
+  width: 12px;
+  margin-right: 8px;
+  background-color: #f9ab00;
+}
+
+.status-closed {
+  border-radius: 12px;
+  height: 12px;
+  width: 12px;
+  margin-right: 8px;
+  background-color: #eb3001;
+}
+
+.status-open {
+  border-radius: 12px;
+  height: 12px;
+  width: 12px;
+  margin-right: 8px;
+  background-color: #36b404;
+}
+
+.status-title {
+  letter-spacing: .07272727em;
+  font-family: Roboto, Arial, sans-serif;
+  font-weight: 600;
+  line-height: 1rem;
+  text-transform: uppercase;
+  color: #5f6368;
+  font-size: 12px;
+}
+
+
+
+.job-title {
+  letter-spacing: .00625em;
+  font-family: 'Google Sans', Roboto, Arial, sans-serif;
+  font-size: 1.375rem;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 1.75rem;
+  color: #202124;
+  margin-bottom: 24px;
+}
+
+.org_name_job_view {
+  letter-spacing: .01428571em;
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.25rem;
+  color: #3c4043;
+  cursor: pointer;
+  margin-bottom: 12px;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.job_apply_button {
+  background-color: #1a73e8;
+  height: 48px;
+  -webkit-border-radius: 24px 24px 24px 24px;
+  border-radius: 24px 24px 24px 24px;
+  font-family: Google Sans, Roboto, Arial, sans-serif;
+  font-size: 1.1rem;
+  font-weight: 500;
+  letter-spacing: .0178571429em;
+  padding-left: 24px;
+  padding-right: 24px;
+  text-transform: none;
+  border-color: rgba(250, 249, 249, 0);
+  color: rgb(250, 246, 246);
+}
+
+.job_view_summary1 {
+  -webkit-box-align: start;
+  box-align: start;
+  -webkit-align-items: flex-start;
+  align-items: flex-start;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  margin-top: 32px;
+}
+
+.job_view_summary {
+  -webkit-box-align: center;
+  box-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  box-pack: justify;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.job_view_summary_left {
+  letter-spacing: .01785714em;
+  font-family: 'Google Sans', Roboto, Arial, sans-serif;
+  font-size: .9rem;
+  font-weight: 500;
+  line-height: 1.25rem;
+  color: #3c4043;
+}
+
+.job_view_summary_right {
+  letter-spacing: .01785714em;
+  font-family: 'Google Sans', Roboto, Arial, sans-serif;
+  font-size: .9rem;
+  font-weight: 500;
+  line-height: 1.25rem;
+  color: #5f6368;
+}
+
+.job_view_location_section {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  padding: 24px;
+}
+
+.job_view_org_location {
+  -webkit-box-align: center;
+  box-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  box-pack: end;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-start;
+  justify-content: flex-start;
+  margin-bottom: 24px;
+}
+
+.job_view_icon {
+  color: #5f6368;
+  font-size: 20px !important;
+  height: 24px;
+  line-height: 20px;
+  margin-right: 12px;
+  width: 24px;
+
+}
+
+.job_view_location_text {
+  letter-spacing: .01785714em;
+  font-family: 'Google Sans', Roboto, Arial, sans-serif;
+  font-size: .875rem;
+  font-weight: 500;
+  line-height: 1.25rem;
+  color: #3c4043;
+}
+
+.job_view_qualification {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  padding: 24px;
+}
+
+.job_view_minimum_qualification {
+  font-family: 'Google Sans', Roboto, Arial, sans-serif;
+  font-size: 1.125rem;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 1.5rem;
+  color: #3c4043;
+  margin: 20px 0;
+}
+
+.job_view_qualties {
+  -webkit-box-align: start;
+  box-align: start;
+  -webkit-align-items: flex-start;
+  align-items: flex-start;
+
+}
+
+.job_view_qualties2 {
+  -webkit-box-align: center;
+  box-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  box-pack: end;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-start;
+  justify-content: flex-start;
+  margin-bottom: 24px;
+}
+
+.job_view_quality_title {
+  letter-spacing: .01785714em;
+  font-family: 'Google Sans', Roboto, Arial, sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.25rem;
+  color: #5f6368;
+  margin-bottom: 8px;
+}
+
+.job_view_quality_details {
+  letter-spacing: .01785714em;
+  font-family: 'Google Sans', Roboto, Arial, sans-serif;
+  font-size: .875rem;
+  font-weight: 500;
+  line-height: 0.02rem;
+  color: #3c4043;
+  padding-inline-start: 40px;
+  margin-bottom: 27px;
+}
+
+.job-title-list {
+  letter-spacing: .00625em;
+  font-family: 'Google Sans', Roboto, Arial, sans-serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+  line-height: 1.5rem;
+  color: #188038;
+  margin-bottom: 8px;
+  padding: .5rem 0;
+}
+
+.job-details-list {
+  letter-spacing: .025em;
+  font-family: Roboto, Arial, sans-serif;
+  font-size: .95rem;
+  font-weight: 400;
+  line-height: 1rem;
+  color: #5f6368;
+  padding: .2rem 0;
+}
+
+.job-details {
+  /* letter-spacing: .025em; */
+  /*     
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1rem;
+    color: #494b4d; */
+  padding: 1.2rem;
+
+}
+
+.skillTag {
+  display: inline-block;
+  padding: .4em .55em;
+  margin: 2px 2px 3px 0;
+  font-size: 12px;
+  line-height: 1;
+  white-space: nowrap;
+  text-decoration: none;
+  text-align: center;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 3px;
+  background-color: rgba(250, 246, 246, 0.89);
+  color: #181818
+}
+
+.job-view-card {
+
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  border-radius: 16px;
+  margin: 32px auto;
+  max-width: 100%;
+}
+
+.hr {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+  width: 104.5%;
+  margin-left: -14px;
+}
+
+.job-view-section>h3 {
+  margin-top: 15px;
+  padding-left: 0px;
+  padding-right: 0px;
+  font-size: 18px;
+}
+
+.job-view-logo {
+  margin-top: 20px;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+}
+
+
+.table-secondary>th {
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.form-labels {
+  font-weight: 600 !important;
+  margin-bottom: .5rem;
+}
+
+.form-group .form-control {
+  padding-left: 1rem;
+}
+
+.form-group .form-control-icon {
+  position: absolute;
+  z-index: 2;
+  display: block;
+  width: 150%;
+  height: 2.375rem;
+  line-height: 3rem;
+  text-align: center;
+  pointer-events: none;
+  color: #aaa;
+}
+
+.search>.form-select {
+  background-color: #eaeaea;
+}
+
+.bd-example {
+  background-color: #f0f0f0;
+  padding: 10px 10px 0px 10px;
+}
+
+.answerid>.form-check-input {
+  width: 2rem;
+  height: 2rem;
+  margin-top: 2rem;
+  margin-left: 6rem;
+}
+
+.addbutton {
+  margin-top: 1.6rem;
+  font-size: 40px !important;
+  color: #7888fc;
+}
+
+
+.removebutton {
+  margin-top: 1.6rem;
+  font-size: 40px !important;
+  color: #ee6e83;
+}
+
+.side-navigation-panel-select-inner-option-selected {
+
+  background-color: #c0c6eb !important;
+
+}
+
+[contenteditable] {
+  outline: 0px solid transparent;
+}
+
+.contents-tabs {
+  flex-grow: 1;
+}
+
+.contents {
+  background: white;
+  padding: 20px;
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+
+.contents h2 {
+  padding: 0px 0 5px 0px;
+}
+
+.contents hr {
+  width: 100px;
+  height: 2px;
+  background: #222;
+  margin-bottom: 5px;
+}
+
+.contents p {
+  width: 100%;
+  height: 100%;
+}
+
+.active-content {
+  display: block;
+}
+

@@ -1,0 +1,6 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+/Todo-Backend/node_modules
+/Todo-Front-end/node_modules
+/Todo-Backend/.env
+

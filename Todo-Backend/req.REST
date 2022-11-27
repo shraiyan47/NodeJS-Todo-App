@@ -1,0 +1,131 @@
+POST http://localhost:5000/api/item 
+content-Type: application/json
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MzdmYmYwMmJlM2M5YTFhODczOWQ4ZjAiLCJlbWFpbCI6InJhaXlhbjA3QGdtYWlsLmNvbSIsInJvbGUiOiJ1c2VyIiwiaWF0IjoxNjY5NTc3OTYyLCJleHAiOjE2Njk1ODE1NjJ9.LtsXOqaps-iX6wSJsP0RbPzVH9NgCpLlqvPKNvunxio
+
+{
+    "item": "Buy Desktop PC"
+}
+
+###
+
+GET http://localhost:5000/api/items
+content-Type: application/json
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MzdmYmYwMmJlM2M5YTFhODczOWQ4ZjAiLCJlbWFpbCI6InJhaXlhbjA3QGdtYWlsLmNvbSIsInJvbGUiOiJ1c2VyIiwiaWF0IjoxNjY5NTc3OTYyLCJleHAiOjE2Njk1ODE1NjJ9.LtsXOqaps-iX6wSJsP0RbPzVH9NgCpLlqvPKNvunxio
+
+
+###
+
+PUT http://localhost:5000/api/item/6383bc262fff7f609345be0d
+content-Type: application/json
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MzdmYmYwMmJlM2M5YTFhODczOWQ4ZjAiLCJlbWFpbCI6InJhaXlhbjA3QGdtYWlsLmNvbSIsInJvbGUiOiJ1c2VyIiwiaWF0IjoxNjY5NTc3OTYyLCJleHAiOjE2Njk1ODE1NjJ9.LtsXOqaps-iX6wSJsP0RbPzVH9NgCpLlqvPKNvunxio
+
+{
+    "complete": true
+}
+
+ 
+###
+
+DELETE  http://localhost:5000/api/item/6383bcff44571b24da99fa1b
+content-Type: application/json
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MzdmYmYwMmJlM2M5YTFhODczOWQ4ZjAiLCJlbWFpbCI6InJhaXlhbjA3QGdtYWlsLmNvbSIsInJvbGUiOiJ1c2VyIiwiaWF0IjoxNjY5NTc3OTYyLCJleHAiOjE2Njk1ODE1NjJ9.LtsXOqaps-iX6wSJsP0RbPzVH9NgCpLlqvPKNvunxio
+
+
+
+
+###
+POST http://localhost:5000/api/note 
+content-Type: application/json
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MzdmYmYwMmJlM2M5YTFhODczOWQ4ZjAiLCJlbWFpbCI6InJhaXlhbjA3QGdtYWlsLmNvbSIsInJvbGUiOiJ1c2VyIiwiaWF0IjoxNjY5NTc3OTYyLCJleHAiOjE2Njk1ODE1NjJ9.LtsXOqaps-iX6wSJsP0RbPzVH9NgCpLlqvPKNvunxio
+
+{
+    "title": "Fifth Note",
+    "details": "Making my Fifth note for MERN Stack Application",
+    "image": "",
+    "todo_tags": ["6311f86c535e71e5e77d9082", "631209069db3f8928482689a"]
+}
+
+###
+
+GET http://localhost:5000/api/notes
+content-Type: application/json
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MzdmYmYwMmJlM2M5YTFhODczOWQ4ZjAiLCJlbWFpbCI6InJhaXlhbjA3QGdtYWlsLmNvbSIsInJvbGUiOiJ1c2VyIiwiaWF0IjoxNjY5NTc3OTYyLCJleHAiOjE2Njk1ODE1NjJ9.LtsXOqaps-iX6wSJsP0RbPzVH9NgCpLlqvPKNvunxio
+
+
+###
+
+GET http://localhost:5000/api/notes/6383bea36aff0f2863fd7a91
+content-Type: application/json
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MzgwZmQ4ZDBmYTYyYTEyNzg3ODJlYzMiLCJlbWFpbCI6InJhaXlhbjA4QGdtYWlsLmNvbSIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTY2OTU3NTY4NSwiZXhwIjoxNjY5NTc5Mjg1fQ.6xwwKXi52mCDQi5nPMT2jXe-mP8ioQpRv_FEesiB_Qk
+
+
+###
+
+PUT http://localhost:5000/api/note/6383bea36aff0f2863fd7a91
+content-Type: application/json
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MzgwZmQ4ZDBmYTYyYTEyNzg3ODJlYzMiLCJlbWFpbCI6InJhaXlhbjA4QGdtYWlsLmNvbSIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTY2OTU3NTY4NSwiZXhwIjoxNjY5NTc5Mjg1fQ.6xwwKXi52mCDQi5nPMT2jXe-mP8ioQpRv_FEesiB_Qk
+
+{
+    "title": "Fifth Note Edited",
+    "details": "Making my Forth note  Editedfor MERN Stack Application",
+    "image": "",
+    "todo_tags": "63120463b1a3ada1e1a59bbd"
+}
+
+###
+
+DELETE  http://localhost:5000/api/note/6383bea36aff0f2863fd7a91
+content-Type: application/json
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MzgwZmQ4ZDBmYTYyYTEyNzg3ODJlYzMiLCJlbWFpbCI6InJhaXlhbjA4QGdtYWlsLmNvbSIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTY2OTU3NTY4NSwiZXhwIjoxNjY5NTc5Mjg1fQ.6xwwKXi52mCDQi5nPMT2jXe-mP8ioQpRv_FEesiB_Qk
+
+### User Registration
+
+POST http://localhost:5000/api/user/registration
+content-Type: application/json
+
+{
+    "fullname": "Shahadat Raiyan",
+    "email": "raiyan07@gmail.com",
+    "naam": "raiyan07",
+    "chabbi": "1@qQasdf"
+}
+
+### Admin Registration
+
+POST http://localhost:5000/api/user/registration/admin
+content-Type: application/json
+
+{
+    "fullname": "Shahadat Admin",
+    "email": "raiyan08@gmail.com",
+    "naam": "raiyan08",
+    "chabbi": "1@qQasdf"
+}
+
+### User Delete
+
+DELETE http://localhost:5000/api/user/635380f489a27e3949f67980
+content-Type: application/json
+
+### Get Single User
+
+GET http://localhost:5000/api/user/637fbdcfc496f0c6c191cf72
+content-Type: application/json
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MzgwZmQ4ZDBmYTYyYTEyNzg3ODJlYzMiLCJlbWFpbCI6InJhaXlhbjA4QGdtYWlsLmNvbSIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTY2OTU3NTY4NSwiZXhwIjoxNjY5NTc5Mjg1fQ.6xwwKXi52mCDQi5nPMT2jXe-mP8ioQpRv_FEesiB_Qk
+
+
+### Get All User
+
+GET http://localhost:5000/api/users
+content-Type: application/json
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MzgwZmQ4ZDBmYTYyYTEyNzg3ODJlYzMiLCJlbWFpbCI6InJhaXlhbjA4QGdtYWlsLmNvbSIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTY2OTU3NTY4NSwiZXhwIjoxNjY5NTc5Mjg1fQ.6xwwKXi52mCDQi5nPMT2jXe-mP8ioQpRv_FEesiB_Qk
+
+### User Login
+
+POST http://localhost:5000/api/login
+content-Type: application/json
+
+{
+    "email": "raiyan07@gmail.com",
+    "chabbi": "1@qQasdf"
+}
